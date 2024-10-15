@@ -1,0 +1,137 @@
+"""
+projekt_1.py: první projekt do Engeto Online Python Akademie
+
+author: Lucie Křivánková
+email: luciekrivankova.10@gmail.com
+discord: .torali
+"""
+
+TEXTS = ['''
+Situated about 10 miles west of Kemmerer,
+Fossil Butte is a ruggedly impressive
+topographic feature that rises sharply
+some 1000 feet above Twin Creek Valley
+to an elevation of more than 7500 feet
+above sea level. The butte is located just
+north of US 30N and the Union Pacific Railroad,
+which traverse the valley. ''',
+'''At the base of Fossil Butte are the bright
+red, purple, yellow and gray beds of the Wasatch
+Formation. Eroded portions of these horizontal
+beds slope gradually upward from the valley floor
+and steepen abruptly. Overlying them and extending
+to the top of the butte are the much steeper
+buff-to-white beds of the Green River Formation,
+which are about 300 feet thick.''',
+'''The monument contains 8198 acres and protects
+a portion of the largest deposit of freshwater fish
+fossils in the world. The richest fossil fish deposits
+are found in multiple limestone layers, which lie some
+100 feet below the top of the butte. The fossils
+represent several varieties of perch, as well as
+other freshwater genera and herring similar to those
+in modern oceans. Other fish such as paddlefish,
+garpike and stingray are also present.'''
+]
+
+users = [
+         {"bob", "123"},
+         {"ann", "pass123"},
+         {"mike", "password123"},
+         {"liz", "pass123"}
+        ] 
+
+line = "-" * 40
+
+in_user = input("username: ")
+in_password = input("password: ")
+in_text = input("Enter a number btw. 1 and 3: ")
+
+titlecase = []
+uppercase = []
+lowercase = []
+numeric = []
+all_numeric = []
+letter_counts = {}
+
+if {in_user, in_password} in users:
+    if in_text.isnumeric() and in_text < "4":
+
+        select_text = TEXTS[int(in_text) - 1]
+        words = (select_text.replace("\n", " ").replace(".","").replace(",","")).split(" ")[1:-1]
+
+        for word1 in words:
+            if word1[0].isupper():
+                titlecase.append(word1)
+
+        for word2 in words:
+            if word2.isalpha() and word2.isupper():
+                uppercase.append(word2)
+
+        for word3 in words:
+            if word3.islower():
+                lowercase.append(word3)
+
+        for number1 in words:
+            if number1.isnumeric():
+                numeric.append(number1)
+
+        for number2 in words:
+            if number2.isnumeric():
+                all_numeric.append(int(number2))
+
+        for word4 in words:
+            word_length = len(word4)
+    
+            if word_length in letter_counts:
+                letter_counts[word_length] += 1
+            else:
+                letter_counts[word_length] = 1
+
+        print(
+             "$ python projekt_1.py\n"
+            f"username: {in_user}\n"
+            f"password: {in_password}\n"
+            f"{line}\n"
+            f"Welcome to the app, {in_user}\n"
+             "We have 3 texts to be analyzed.\n"
+            f"{line}\n"
+            f"Enter a number btw. 1 and 3 to select: {in_text}\n"
+            f"{line}\n"
+            f"There are {len(words)} words in the selected text.\n"
+            f"There are {len(titlecase)} titlecase words.\n"
+            f"There are {len(uppercase)} uppercase words.\n"
+            f"There are {len(lowercase)} lowercase words.\n"
+            f"There are {len(numeric)} numeric strings.\n"
+            f"The sum of all the numbers {sum(all_numeric)}\n"
+            f"{line}\n"
+            "LEN|  OCCURENCES  |NR.\n"
+            f"{line}"
+        )
+
+        for length, count in sorted(letter_counts.items()):
+            print(
+                f"{str(length).rjust(3)}|{str("*" * count).ljust(14)}|{count}"
+            )
+
+    elif in_text.isnumeric() and in_text >= "4":
+        print(
+             "$ python projekt_1.py\n"
+            f"selected number: {in_text}\n"
+            "Select number btw. 1 and 3, terminating the program.."
+        )
+
+    elif in_text.isalpha():
+        print(
+             "$ python projekt_1.py\n"
+            f"you wrote \'{in_text}\' as selected number.\n"
+            "Please, select number btw. 1 and 3, terminating the program.."
+        )
+
+else:
+    print(
+         "$ python projekt_1.py\n"
+        f"username: {in_user}\n"
+        f"password: {in_password}\n"
+         "unregistered user, terminating the program.."
+    )
