@@ -16,20 +16,22 @@ python election_scraper.py <URL> <output_file.csv>
 Následně se vám stáhnou výsledky jako soubor s příponou `.csv`.
 ## Ukázka projektu
 Výsledky hlasování pro okres Prostějov:
-  1. argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103`
-  2. argument: `vysledky_prostejov.csv`
+  1. argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206`
+  2. argument: `vysledky_vyskov.csv`
 Spuštění programu:
 ```
-python election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103' 'vysledky_prostejov.csv'
+python election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206' 'vysledky_vyskov.csv'
 ```
 Průběh stahování:
 ```
 STARTING PROGRAM ELECTIONS SCRAPER
-DOWNLOADING DATA FROM SELECTED URL: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
-SAVING TO FILE: vysledky_prostejov.csv
+DOWNLOADING DATA FROM SELECTED URL: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206
+SAVING TO FILE: vysledky_vyskov.csv
 ENDING PROGRAM ELECTIONS SCRAPER
 ```
 Částečný výstup:
 ```
-
+code,location,registered,envelopes,valid,...
+592897,Bohaté Málkovice,200,111,111,4,0,0,14,0,2,9,0,1,0,0,0,3,0,1,48,1,0,16,0,0,0,0,10,2,0
+592901,Bohdalice-Pavlovice,687,426,422,25,0,0,36,0,19,42,3,0,6,1,1,21,4,6,112,0,1,54,0,3,0,1,87,0,0
 ```
