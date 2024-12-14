@@ -15,7 +15,7 @@ python election_scraper.py <URL> <output_file.csv>
 ```
 Následně se vám stáhnou výsledky jako soubor s příponou `.csv`.
 ## Ukázka projektu
-Výsledky hlasování pro okres Prostějov:
+Výsledky hlasování pro okres Vyškov:
   1. argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206`
   2. argument: `vysledky_vyskov.csv`
 ### Spuštění programu:
