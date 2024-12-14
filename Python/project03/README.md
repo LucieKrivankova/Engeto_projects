@@ -18,18 +18,18 @@ Následně se vám stáhnou výsledky jako soubor s příponou `.csv`.
 Výsledky hlasování pro okres Prostějov:
   1. argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206`
   2. argument: `vysledky_vyskov.csv`
-###Spuštění programu:
+### Spuštění programu:
 ```
 python election_scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206' 'vysledky_vyskov.csv'
 ```
-###Průběh stahování:
+### Průběh stahování:
 ```
 STARTING PROGRAM ELECTIONS SCRAPER
 DOWNLOADING DATA FROM SELECTED URL: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6206
 SAVING TO FILE: vysledky_vyskov.csv
 ENDING PROGRAM ELECTIONS SCRAPER
 ```
-###Částečný výstup:
+### Částečný výstup:
 ```
 code,location,registered,envelopes,valid,...
 592897,Bohaté Málkovice,200,111,111,4,0,0,14,0,2,9,0,1,0,0,0,3,0,1,48,1,0,16,0,0,0,0,10,2,0
