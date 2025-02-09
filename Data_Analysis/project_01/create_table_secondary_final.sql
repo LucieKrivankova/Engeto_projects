@@ -3,7 +3,6 @@ select
 	e.year,
 	e.country,
 	e.gdp,
-	e.taxes,
 	e.gini,
 	e.population
 from countries c
