@@ -22,5 +22,6 @@
 	where 1=1
 		and c.continent = 'Europe'
 		and e.year between 2006 and 2018
+	order by e.country, e.year desc
 --)
 ;
