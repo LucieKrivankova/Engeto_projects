@@ -1,4 +1,4 @@
---create table t_lucie_krivankova_project_SQL_primary_final as (
+create table t_lucie_krivankova_project_SQL_primary_final as (
 	with price as (
 		select
 			date_part('year', cp.date_from) as year,
@@ -21,7 +21,7 @@
 			on p.industry_branch_code = i.code 
 		where 1=1
 			and p.value_type_code = 5958
-			--and p.calculation_code = 200
+			and p.calculation_code = 100
 		group by industry, p.payroll_year
 	)
 	select
@@ -32,5 +32,5 @@
 	join price pr
 		on pa.payroll_year = pr.year
 	order by pa.industry, pr.year, pr.price_name
---)
+)
 ;
