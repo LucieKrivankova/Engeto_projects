@@ -9,6 +9,12 @@ Tento projekt se zabývá analýzou meziročního růstu cen potravin a mezd. C�
 4. Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
 ## Struktura projektu
-+ SQL dotazy – Kód pro analýzu dat v SQL
-+ Výsledky – Tabulky s meziročními změnami cen potravin a mezd
++ 2 tabulky v databázi 
++ 5 SQL dotazů
 + README.md – Tento soubor s popisem projektu
+## Výstup
+1. Otázka
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
