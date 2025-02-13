@@ -14,6 +14,7 @@ Tento projekt se zabývá analýzou meziročního růstu cen potravin a mezd. C�
 + README.md – Tento soubor s popisem projektu
 ## Výstup
 1. Otázka
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
