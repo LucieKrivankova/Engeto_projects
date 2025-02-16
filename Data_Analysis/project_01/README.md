@@ -11,3 +11,4 @@ Tento projekt se zabývá analýzou meziročního růstu cen potravin a mezd. C�
 ## Struktura projektu
 + 2 tabulky (`create_table_primary_final.sql` a `create_table_secondary_final.sql`)
 + 5 SQL dotazů (`query.sql`)
++ 5 informací o výstupních datech (`README.md`)
