@@ -27,3 +27,4 @@ Následující tabulka zobrazuje konkrétní roky ve kterých průměrné mzdy z
 | Zemědělství, lesnictví, rybářství	| 2009 |
 | Zásobování vodou; činnosti související s odpady a sanacemi	| 2013 |
 | Činnosti v oblasti nemovitostí	| 2013 |
+## Závěr
