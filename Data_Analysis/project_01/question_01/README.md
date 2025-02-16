@@ -1,6 +1,6 @@
 ## Otázka
 Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
-## Výsledek
+## Výstup
 Následující tabulka zobrazuje konkrétní roky ve kterých průměrné mzdy zaměstnanců v daném roce klesly.
 | industry  | year |
 | ------------- | ------------- |
