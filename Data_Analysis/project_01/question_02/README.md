@@ -1,6 +1,6 @@
 ## Otázka
 Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
-## Výsledek
+## Výstup
 Následující tabulka zobrazuje kolik kilogramů chleba nebo litrů mléka je možné si koupit za první a poslední srovnatelné období.
 | year  | price_name | price_avg | payroll_avg | to_buy | price_unit |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
