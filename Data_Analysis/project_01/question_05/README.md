@@ -1,6 +1,6 @@
 ## Otázka
 Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
-## Výsledek
+## Výstup
 Následující tabulka zobrazuje, zda má vývoj HDP vliv na meziroční změny mezd a cen potravin, tedy zda výraznější růst HDP v jednom roce vede k výraznějšímu růstu mezd či cen potravin ve stejném nebo následujícím roce.
 | year | gdp_percent_change | avg_prince_per | avg_payroll_per |
 | ----- | ----- | ----- | ----- |
