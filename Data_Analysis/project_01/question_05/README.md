@@ -18,4 +18,4 @@ Následující tabulka zobrazuje, zda má vývoj HDP vliv na meziroční změny 
 | 2007	| 5.57	| 9.26	| 6.91 |
 | 2006	| NULL | NULL | NULL |
 ## Shrnutí
-Na základě dostupných dat se zdá, že mezi růstem HDP, změnami mezd a cenami potravin neexistuje jednoznačná souvislost. Například v roce 2017 prudce vzrostl HDP o 5,17 %, ale růst mezd (7,06 %) i cen potravin (6,73 %) byl nižší než v roce 2008, kdy byl růst HDP jen 2,69 %, zatímco mzdy vzrostly o 8,92 % a ceny potravin o 7,42 %.
+Na základě dostupných dat nelze jednoznačně potvrdit přímou souvislost mezi růstem HDP a následnou změnou mezd či cen potravin. V některých případech prudký růst HDP předcházel růstu mezd (např. 2017–2018), zatímco v jiných obdobích (např. 2015–2016) růst HDP nevedl k odpovídajícím změnám ve mzdách či cenách potravin.
