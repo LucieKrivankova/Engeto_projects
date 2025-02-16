@@ -1,4 +1,4 @@
-# Engeto SQL projekt
+# Engeto 1. datový projekt
 První projekt pro Datovou akademii od Engeta.
 ## Popis projektu
 Tento projekt se zabývá analýzou meziročního růstu cen potravin a mezd. Cílem je odpovědět na několik výzkumných otázek spojených s ekonomickým vývojem.
